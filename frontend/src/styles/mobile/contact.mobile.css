@@ -1,0 +1,11 @@
+.contacts-mobile-card { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; text-align: left; font: inherit; color: inherit; }
+.contacts-mobile-card small { color: var(--muted); }
+
+@media (max-width: 768px) {
+  .contacts-page { padding: 12px; }
+  .contacts-page .page-header { flex-direction: column; align-items: stretch; }
+  .contacts-grid { display: none; }
+  .contacts-mobile-list { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
+  .contacts-form { max-width: 100%; padding: 12px; }
+  .contacts-form input, .contacts-form textarea, .contacts-form button { width: 100%; font-size: 16px; }
+}
