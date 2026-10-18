@@ -1,0 +1,11 @@
+.employers-mobile-card { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; text-align: left; font: inherit; color: inherit; }
+.employers-mobile-card small { color: var(--muted); }
+
+@media (max-width: 768px) {
+  .employers-page { padding: 12px; }
+  .employers-page .page-header { flex-direction: column; align-items: stretch; }
+  .employers-grid { display: none; }
+  .employers-mobile-list { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
+  .employers-form { max-width: 100%; padding: 12px; }
+  .employers-form input, .employers-form textarea, .employers-form button { width: 100%; font-size: 16px; }
+}
