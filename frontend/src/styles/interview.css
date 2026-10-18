@@ -1,0 +1,12 @@
+.interviews-page { padding: 24px; max-width: 1200px; margin: 0 auto; }
+.interviews-page .page-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px; }
+.interviews-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 16px; }
+.interviews-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; cursor: pointer; transition: box-shadow .2s ease, transform .2s ease; }
+.interviews-card:hover { box-shadow: 0 8px 24px rgba(15, 23, 42, .08); transform: translateY(-2px); }
+.interviews-card h3 { margin: 0 0 8px; color: var(--primary-dark); }
+.interviews-card p { margin: 4px 0; color: var(--muted); font-size: 14px; }
+.interviews-card span { font-weight: 600; text-transform: capitalize; color: var(--text); }
+.interviews-mobile-list { display: none; }
+.interviews-form { display: grid; gap: 12px; max-width: 560px; margin: 16px 0; padding: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+.interviews-form label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; text-transform: capitalize; }
+.interviews-form label.checkbox { display: flex; align-items: center; gap: 8px; }
