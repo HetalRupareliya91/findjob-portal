@@ -1,0 +1,12 @@
+.benefits-page { padding: 24px; max-width: 1200px; margin: 0 auto; }
+.benefits-page .page-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px; }
+.benefits-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 16px; }
+.benefits-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; cursor: pointer; transition: box-shadow .2s ease, transform .2s ease; }
+.benefits-card:hover { box-shadow: 0 8px 24px rgba(15, 23, 42, .08); transform: translateY(-2px); }
+.benefits-card h3 { margin: 0 0 8px; color: var(--primary-dark); }
+.benefits-card p { margin: 4px 0; color: var(--muted); font-size: 14px; }
+.benefits-card span { font-weight: 600; text-transform: capitalize; color: var(--text); }
+.benefits-mobile-list { display: none; }
+.benefits-form { display: grid; gap: 12px; max-width: 560px; margin: 16px 0; padding: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+.benefits-form label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; text-transform: capitalize; }
+.benefits-form label.checkbox { display: flex; align-items: center; gap: 8px; }
