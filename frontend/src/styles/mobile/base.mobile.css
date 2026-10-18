@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .navbar { flex-wrap: wrap; height: auto; min-height: 56px; padding: 8px 16px; gap: 8px; justify-content: space-between; }
+  .nav-toggle { display: inline-block; padding: 6px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); font: inherit; }
+  .nav-links { display: none; width: 100%; flex-direction: column; align-items: stretch; gap: 0; padding-bottom: 8px; }
+  .nav-links.open { display: flex; }
+  .nav-links a, .nav-more > button { padding: 12px 4px; border-bottom: 1px solid var(--border); text-align: left; }
+  .nav-dropdown { position: static; box-shadow: none; border: 0; padding: 0 0 0 12px; max-height: none; }
+
+  .hero { padding: 56px 16px; }
+  .hero h1 { font-size: 30px; }
+  .hero-actions { flex-direction: column; }
+
+  .search { max-width: 100%; font-size: 16px; }
+  .detail-card { padding: 16px; }
+  .detail-card .actions { flex-direction: column; }
+  .pagination { flex-wrap: wrap; }
+}
