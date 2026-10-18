@@ -1,0 +1,11 @@
+.reports-mobile-card { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; text-align: left; font: inherit; color: inherit; }
+.reports-mobile-card small { color: var(--muted); }
+
+@media (max-width: 768px) {
+  .reports-page { padding: 12px; }
+  .reports-page .page-header { flex-direction: column; align-items: stretch; }
+  .reports-grid { display: none; }
+  .reports-mobile-list { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
+  .reports-form { max-width: 100%; padding: 12px; }
+  .reports-form input, .reports-form textarea, .reports-form button { width: 100%; font-size: 16px; }
+}
